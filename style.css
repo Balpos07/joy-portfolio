@@ -19,7 +19,7 @@ body {
 button {
     border: none;
     background-color: transparent;
-    margin: 10px;
+    margin: 8%;
     cursor: pointer;
     transition: transform 0.5s;
 }
@@ -39,8 +39,8 @@ i {
 
 /* Book */
 .book {
-    width: 350px;
-    height: 500px;
+    width: 40%;
+    height: 100vh;
     position: relative;
     transition: transform 0.5s;
 }
@@ -76,6 +76,10 @@ i {
 
 .front {
     z-index: 1;
+}
+
+.front1{
+    background-color: maroon;
 }
 
 .back {
@@ -118,16 +122,25 @@ i {
 /* Customization */
 
 .book-title {
-    font-size: 3em;
-    margin-bottom: 40px;
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
 }
 
-.cover-img {
+.book-title span{
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+
+/* .cover-img {
     width: 200px;
     height: 270px;
     object-fit: cover;
     border-radius: 30px;
-}
+} */
 
 #b1 {
     padding: 20px;
@@ -145,5 +158,3 @@ i {
 #b1 p {
     margin-bottom: 20px;
 }
-
-
