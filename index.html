@@ -3,78 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
-    <script defer src="./main.js"></script>
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <button id="prev-btn">
-        <i class="fas fa-arrow-circle-left"></i>
-    </button>
+    <div class="book">
+        <input type="checkbox" name="" id="c1">
+        <input type="checkbox" name="" id="c2">
+        <input type="checkbox" name="" id="c3">
+        <div id="cover">
+           <div class="cover">
+                <h1 class="cover-h1">Front End Developer <br><span>Portfolio</span></h1>
+                <h2 class="cover-h2">Ayomiposi Balogun</h2>
+           </div>
+        </div>
+        <div class="flip-book">
 
-    <!-- The Book -->
-    <div id="book" class="book">
-        <!-- Paper 1 -->
-        <div id="p1" class="paper">
-            <div class="front front1">
-                <div id="f1" class="front-content front-content-1">
-                    <h1 class="book-title">Front End Developer <span>Portfolio</span></h1>
-                    <!-- <img class="cover-img" src="./dog.jpg" alt="dog"> -->
+
+            <div class="flip" id="p1">
+                <div class="back">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id nemo obcaecati voluptates quasi facilis voluptatem consectetur amet commodi, neque eaque aspernatur nisi tempore dolorum hic corrupti qui saepe illo sapiente autem temporibus eos aliquam. Rem unde aspernatur deleniti officiis fugiat dolorum quos fugit! Excepturi, cumque officia? Assumenda, illo doloremque! Debitis facilis aperiam voluptatem quibusdam aliquid placeat, veritatis voluptas! Architecto cum incidunt labore repudiandae, ab odio voluptatum perferendis hic. Est obcaecati minima omnis quisquam, ex iusto libero nemo vel fugit doloremque magnam itaque hic impedit. Laboriosam voluptatum dolor aut natus, veritatis cum dicta fugit atque! Eligendi ipsum excepturi obcaecati voluptatibus.</p>
+                    <label class="back-btn" for="c1">Back</label>
+                </div>
+                <div class="front">
+                    <h2>About Ayomiposi</h2>
+                   <ul>
+                       <li>3+ years of experience</li>
+                       <li>Undergraduate of Computer Science Adekunle Ajasin Univeristy, Akungba</li>
+                       <li>3+ years of experience as Frontend Developer working as a freelancer, with teams and Tech communities.</li>
+                   </ul>
+
+                   <h2>Frontend Web Developer</h2>
+                   <p class="front-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias magni cumque illo delectus architecto ipsa nam a esse, consequatur facilis sed in natus numquam tempora accusamus porro, dolorum assumenda doloribus praesentium aliquid! Sequi, quo voluptate a libero fuga tempore quasi.</p>
+
+                   <div class="front-link">
+
+                   </div>
+
+                    <label class="next-btn" for="c1">Next</label>
                 </div>
             </div>
-            <div class="back">
-                <div id="b1" class="back-content">
-                    <h2>Some Intro</h2>
-                    <div class="content">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+
+            <div class="flip" id="p2">
+                <div class="back flip-back">
+                   <h2>Skills</h2>
+                   <p class="front-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis fuga magnam aliquam obcaecati, deleniti, voluptate beatae qui quo vel doloribus voluptas quas animi. Cumque labore, saepe velit illum, perferendis delectus libero, animi error voluptate similique dolorem. Tempora nobis modi necessitatibus, odit porro quaerat facilis ratione aspernatur provident illo, dolore voluptates.</p>
+                   <ul>
+                       <li>HTML CSS</li>
+                       <li>JAVASCRIPT JQUERY</li>
+                       <li>REACT JS</li>
+                       <li>Version control</li>
+                       <li>Python Development</li>
+                   </ul>
+                    <label class="back-btn" for="c2">Back</label>
+                </div>
+                <div class="front">
+                    <h2>Services</h2>
+                    <p class="front-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis fuga magnam aliquam obcaecati,
+                        deleniti, voluptate beatae qui quo vel doloribus voluptas quas animi. Cumque labore, saepe velit illum, perferendis
+                        delectus libero, animi error voluptate similique dolorem. Tempora nobis modi necessitatibus, odit porro quaerat
+                        facilis ratione aspernatur provident illo, dolore voluptates.</p>
+                    <div class="skills">
+                        <h3>Web Development/h3>
+                        <h3>Android Development</h3>
+                        <h3>UI UX Design</h3>
+                        <h3>Graphic Design</h3>
+                        <label class="back-btn" for="c2">Back</label>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Paper 2 -->
-        <div id="p2" class="paper">
-            <div class="front">
-                <div id="f2" class="front-content">
-                    <h1>About Joy </h1>
-                    <ul>
-                        <li>2 years of experience work</li>
-                        <li>Undergraduate of Adekunle Ajasin University Akungba Akoko</li>
-                        <li>8 years of commercial front end development for multiple fortune 500 companies</li>
-                    </ul>
+
+
+            <div class="flip" id="p3">
+                <div class="back">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dicta cum, earum officiis ullam atque, expedita impedit sunt culpa similique nisi at aspernatur magni sint nobis maiores! Vel fuga esse provident tempore voluptatum earum illum, obcaecati, ipsa accusamus velit voluptatibus asperiores! Sint, numquam? Quisquam iste, architecto omnis cumque, nesciunt suscipit a quos, earum doloribus ab aliquid corporis excepturi! Tenetur assumenda exercitationem voluptatum minus deleniti? Nostrum maxime odio sit dolore laboriosam eius adipisci nam dolor error aperiam aliquid ullam repellendus repellat quasi illo eaque eveniet cum esse commodi, voluptas tenetur quae doloribus in sunt? Mollitia, alias? Assumenda laudantium similique saepe laborum?</p>
+                    <label class="back-btn" for="c13">Back</label>
                 </div>
-            </div>
-            <div class="back">
-                <div id="b2" class="back-content">
-                    <h1>An Awesome Page</h1>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 3 -->
-        <div id="p3" class="paper">
-            <div class="front">
-                <div id="f3" class="front-content">
-                    <h1>An Amazing Page</h1>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b3" class="back-content">
-                    <h1>The Good Bye</h1>
+                <div class="front">
+                    <h2>Pineapple</h2>
+                    <p class="front-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit natus, excepturi iure, commodi sunt id eligendi accusamus non voluptates adipisci? Accusamus cumque ea ab nulla possimus modi repellat quidem atque adipisci labore.</p>
+                    <label class="next-btn" for="c3">Next</label>
                 </div>
             </div>
         </div>
     </div>
-
-    <button id="next-btn">
-        <i class="fas fa-arrow-circle-right"></i>
-    </button>
-
-
 </body>
 </html>
